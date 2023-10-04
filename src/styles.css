@@ -1,0 +1,36 @@
+/* Styles for Card Elements */
+.card {
+    background-color: bisque;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+
+  /* Styles for Book Cards */
+.book-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    box-shadow: 0 4px 8px gray;
+    background-color:aliceblue ;
+  }
+  
+  .book-card:hover {
+    transform: translateY(-15px);
+  }
+  
+  .book-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+  }
+  
+  .book-author {
+    font-style: italic;
+    color: #555;
+  }
+  
